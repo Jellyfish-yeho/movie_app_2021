@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Jellyfish-yeho/movie_app_2021/static/css/main.22c7c00d.chunk.css",
+    "main.js": "/Jellyfish-yeho/movie_app_2021/static/js/main.3e03dade.chunk.js",
+    "main.js.map": "/Jellyfish-yeho/movie_app_2021/static/js/main.3e03dade.chunk.js.map",
+    "runtime-main.js": "/Jellyfish-yeho/movie_app_2021/static/js/runtime-main.55f872f2.js",
+    "runtime-main.js.map": "/Jellyfish-yeho/movie_app_2021/static/js/runtime-main.55f872f2.js.map",
+    "static/js/2.ce6115fa.chunk.js": "/Jellyfish-yeho/movie_app_2021/static/js/2.ce6115fa.chunk.js",
+    "static/js/2.ce6115fa.chunk.js.map": "/Jellyfish-yeho/movie_app_2021/static/js/2.ce6115fa.chunk.js.map",
+    "index.html": "/Jellyfish-yeho/movie_app_2021/index.html",
+    "static/css/main.22c7c00d.chunk.css.map": "/Jellyfish-yeho/movie_app_2021/static/css/main.22c7c00d.chunk.css.map",
+    "static/js/2.ce6115fa.chunk.js.LICENSE.txt": "/Jellyfish-yeho/movie_app_2021/static/js/2.ce6115fa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55f872f2.js",
+    "static/js/2.ce6115fa.chunk.js",
+    "static/css/main.22c7c00d.chunk.css",
+    "static/js/main.3e03dade.chunk.js"
+  ]
+}
