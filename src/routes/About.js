@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import './About.css'
 
 //Route 컴포넌트가 그려줄 컴포넌트에는 항상 props값이 전달되고, 이 props에 마음대로 데이터를 담아 보낼 수 있다. 

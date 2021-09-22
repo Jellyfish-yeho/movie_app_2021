@@ -1,6 +1,4 @@
-import { render } from "@testing-library/react";
 import React from "react";
-import react from "react";
 
 //props의 history 에서 url 변경 함수를 사용할 수 있다. 
 //직접 주소창에 detail을 입력해서 들어가서 location의 state값이 비어 있는 경우, history를 사용해서 url을 / (home)로 강제 수정한다. 즉, redirect이동.
