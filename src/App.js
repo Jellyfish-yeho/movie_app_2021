@@ -3,6 +3,7 @@ import './App.css';
 import { HashRouter, Route } from 'react-router-dom';
 import About from './routes/About';
 import Home from './routes/Home';
+import Movies from './routes/Movies'
 import Navigation from './components/Navigation';
 import Detail from './routes/Detail';
 
@@ -15,6 +16,7 @@ class App extends React.Component{
         <Navigation/>
         <Route path="/" exact={true} component={Home} />
         <Route path="/about" component={About} />
+        <Route path="/movies" component={Movies}/>
         <Route path="/movie-detail" component={Detail}/>
       </HashRouter>
     );
