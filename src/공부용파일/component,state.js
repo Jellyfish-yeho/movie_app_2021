@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 //state를 사용하기 위해 class 형식의 component를 만든다. 
 //이 때 React.Component를 extends 해야 한다. 
 //render 함수 안에서 jsx를 리턴해줘야 한다. 

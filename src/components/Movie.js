@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import propTypes from "prop-types";
 import "./Movie.css"
 import {Link} from 'react-router-dom'
@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom'
 //state 가 필요하지 않으므로 함수형으로 작성
 //넘어올 영화 데이터를 관리할 prop-types 사용
 //slice : string.slice(시작숫자, 끝숫자) 이 때 끝숫자는 포함X
-function Movie({title, year, summary, poster, genres}){
+function Movie({id, title, year, summary, poster, genres}){
     return (
     <div>
         <select name="align">
@@ -16,7 +16,7 @@ function Movie({title, year, summary, poster, genres}){
         </select>
         <div className="movie">
             <Link to={{
-                pathname:'/movie-detail',
+                pathname:`/movie/${id}`,
                 state:{year, title, summary, poster,genres},
             }}>
                 <img src={poster} alt={title} title={title}/>
